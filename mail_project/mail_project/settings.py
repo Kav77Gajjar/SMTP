@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # app which we created add here
+    'contact', # app name <here contact>
 ]
 
 MIDDLEWARE = [
@@ -73,6 +75,7 @@ WSGI_APPLICATION = 'mail_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# we do not need any database for storage so we use default and not make any changes here
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
