@@ -1,0 +1,1 @@
+here we use html css django for mail service ,django provide an inbuilt smtp service where you can send mail < here in this code you can send mail to direct server via smtp service and without any database support >
